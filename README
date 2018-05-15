@@ -3,3 +3,10 @@
  CS179J Project - Automated Pet Feeder
 
  This repository has all the C files I used for my senior design project.
+
+Files Edited in CS179J
+---------------------------
+Food_Dispenser.c
+Tank_Capactiy_Checker.c
+force_sensor_test.c
+servo_motor_test.c
