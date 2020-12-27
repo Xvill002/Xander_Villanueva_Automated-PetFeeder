@@ -20,7 +20,7 @@ volatile unsigned char TimerFlag = 0; // TimerISR() sets this to 1. C programmer
 
 // Internal variables for mapping AVR's ISR to our cleaner TimerISR model.
 unsigned long _avr_timer_M = 1; // Start count from here, down to 0. Default 1 ms.
-unsigned long _avr_timer_cntcurr = 0; // Current internal count of 1ms ticks
+unsigned long _avr_timer_cntcurr = 0; // Current internal count of 1ms ticks.
 
 void TimerOn() {
 	// AVR timer/counter controller register TCCR1
