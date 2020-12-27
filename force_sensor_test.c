@@ -3,11 +3,11 @@
  *
  * Created: 4/28/2018 3:03:46 PM
  *  Author: xcvmi
+ *
  */ 
 
 #include <avr/io.h>
 #include <util/delay.h>
-
 
 
 
@@ -32,7 +32,7 @@ int main(void)
 	
     while(1)
     {
-		x = ADC; //force value read from sensor
+		x = ADC; //force value read from sensor.
 		
 		if(x > 600)
 		{
