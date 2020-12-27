@@ -24,7 +24,7 @@ void main()
 	TCCR1B = 0x1B;
 	ICR1 = 4999;  
 
-	//DDRD|=(1<<PD4)|(1<<PD5);   Used for testing
+	//DDRD|=(1<<PD4)|(1<<PD5);   Used for testing.
 	DDRD = 0xFF;
 
 	while(1)
