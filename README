@@ -1,8 +1,8 @@
  Xander Villanueva
 
-Files Edited in CS179J
+Files Edited
 ---------------------------
-Food_Dispenser.c
-Tank_Capactiy_Checker.c
-force_sensor_test.c
-servo_motor_test.c
+Food_Dispenser.c - The main file that the microcontroller uses to control the system.
+Tank_Capactiy_Checker.c - tests the Ultrasonic sensor to properly measure tank capacity
+force_sensor_test.c - tests the force sensor to properly detect the desired weight of the food bowl
+servo_motor_test.c - tests ther servo motors to properly open and close the latches on the dispenser
