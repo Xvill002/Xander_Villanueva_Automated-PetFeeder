@@ -17,7 +17,7 @@ void send_ultrasonic_signal(int a, int b) // function used for sending a signal 
 	PORTC &= ~(1 << PINC0);
 
 	TCNT1 = 0;
-	while(!(PINC & (1 << PINC1)) && TCNT1 < 30000) ;  // check to see if echo is high
+	while(!(PINC & (1 << PINC1)) && TCNT1 < 30000) ;  // check to see if echo is high.
 	b = TCNT1;
 	if(b < 30000)
 	{
